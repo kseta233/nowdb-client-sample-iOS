@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now News " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT1-kD-or2">
+                                <rect key="frame" x="107" y="356" width="107" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NowDB Backend and eWork Bandung collaboration in API Tutorial" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzG-63-OFd">
+                                <rect key="frame" x="12" y="502" width="296" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cjI-0F-SyK">
+                                <rect key="frame" x="60" y="154" width="200" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="WT7-IL-cBM"/>
+                                    <constraint firstAttribute="height" constant="170" id="YdP-Qz-QnW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85882352941176465" green="0.57647058823529407" blue="0.25098039215686274" alpha="0.80880926724137936" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DzG-63-OFd" secondAttribute="trailing" constant="12" id="02z-p5-p41"/>
+                            <constraint firstItem="DzG-63-OFd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="G29-0k-Ess"/>
+                            <constraint firstItem="OT1-kD-or2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KBj-nq-coB"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="DzG-63-OFd" secondAttribute="bottom" constant="32" id="RFy-Gy-Gcy"/>
+                            <constraint firstItem="cjI-0F-SyK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RKX-pS-aNr"/>
+                            <constraint firstItem="OT1-kD-or2" firstAttribute="top" secondItem="cjI-0F-SyK" secondAttribute="bottom" constant="32" id="j2c-6V-XP6"/>
+                            <constraint firstItem="DzG-63-OFd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="12" id="vk5-kz-yhx"/>
+                            <constraint firstItem="OT1-kD-or2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="1.3" id="yob-3c-AHQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="180" height="160"/>
+    </resources>
+</document>
